@@ -1,0 +1,42 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Element Selector */
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* Group Selector */
+h2, h3 {
+    color: darkgreen;
+}
+
+/* Class Selector */
+.section-box {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 15px;
+}
+
+/* ID Selector */
+#student-name {
+    color: brown;
+    font-weight: bold;
+}
+
+/* Descendant Selectors */
+.course-list li {
+    color: navy;
+}
+
+.hobby-list li {
+    color: purple;
+}
